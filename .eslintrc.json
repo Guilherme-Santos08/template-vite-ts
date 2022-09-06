@@ -25,7 +25,7 @@
     "spaced-comment": "error",
     "quotes": ["error", "single"],
     "no-duplicate-imports": "error",
-    "prettier/prettier": ["error"]
+    "prettier/prettier": ["error", { "endOfLine": "auto" }]
   },
   "settings": {
     "import/resolver": {
