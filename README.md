@@ -34,11 +34,16 @@
 ### Instalação
 1. Instalar template
    ```sh
-   ❯ yarn create next-app -e https://github.com/Guilherme-Santos08/template-vite-ts
-   # ou
-   ❯ npx create-next-app -e https://github.com/Guilherme-Santos08/template-vite-ts
+    git clone https://github.com/Guilherme-Santos08/template-vite-ts
+    cd template-vite-ts
    ```
-2. Starta projeto
+2. Use seus próprios commits
+   ```sh
+    rm -rf .git && git init && npm init
+    git add .
+    git commit -m "Initial commit"
+   ```
+3. Starta projeto
    ```sh
    yarn dev
    # ou
