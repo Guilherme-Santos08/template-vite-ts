@@ -39,7 +39,7 @@
    ```
 2. Use seus próprios commits
    ```sh
-    rm -rf .git && git init && npm init
+    rm -rf .git && git init
     git add .
     git commit -m "Initial commit"
    ```
